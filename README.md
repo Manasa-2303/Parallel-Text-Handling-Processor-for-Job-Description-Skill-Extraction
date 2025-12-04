@@ -1,0 +1,2 @@
+# Parallel-Text-Handling-Processor-for-Job-Description-Skill-Extraction
+This project focuses on developing system that processes large volumes of job descriptions to identify and extract required technical skills. Job postings are unstructured and written in varied formats making it difficult to analyze skill demands. The system uses a combination of text cleaning and parallel processing techniques to analyze job data.
