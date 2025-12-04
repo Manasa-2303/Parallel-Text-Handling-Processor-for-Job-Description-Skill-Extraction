@@ -3,58 +3,71 @@ This project focuses on developing system that processes large volumes of job de
 
 OBJECTIVES
 
-Automate extraction of skills from unstructured job descriptions.
+- Automate extraction of skills from unstructured job descriptions.
 
-Use parallel processing to significantly improve execution speed.
+- Use parallel processing to significantly improve execution speed.
 
-Maintain skills in a database for easy updates without modifying code.
+- Maintain skills in a database for easy updates without modifying code.
 
-Clean and normalize job text for better accuracy.
+- Clean and normalize job text for better accuracy.
 
-Perform skill frequency analysis to identify high-demand technologies.
+- Perform skill frequency analysis to identify high-demand technologies.
 
-Generate visual insights like bar graphs for presentation and reporting.
+- Generate visual insights like bar graphs for presentation and reporting.
 
 KEY FEATURES
 
-Parallel Skill Extraction using ThreadPoolExecutor
+- Parallel Skill Extraction using ThreadPoolExecutor
 
-SQLite Database Integration for storing skill keywords
+- SQLite Database Integration for storing skill keywords
 
-Text Cleaning Module for preprocessing job descriptions
+- Text Cleaning Module for preprocessing job descriptions
 
-Dynamic Regex Pattern built from database skills
+- Dynamic Regex Pattern built from database skills
 
-Structured Output stored in CSV files
+- Structured Output stored in CSV files
 
-Skill Frequency Analysis with automatic bar graph plotting
+- Skill Frequency Analysis with automatic bar graph plotting
 
 
 WORKFLOW
 
-Load Job Dataset
+-> Load Job Dataset
 Reads a CSV file containing job descriptions.
 
-Clean Text
+-> Clean Text
 Removes HTML tags, special characters, and extra spaces.
 
-Load Skills from SQLite Database
+-> Load Skills from SQLite Database
 Skills are stored and retrieved dynamically.
 
-Build Regex Pattern
+-> Build Regex Pattern
 Converts the skill list into a case-insensitive search pattern.
 
-Parallel Processing
+-> Parallel Processing
 Uses a ThreadPool to process multiple job descriptions simultaneously.
 
-Extract Skills
+-> Extract Skills
 Finds and records skills appearing in each job description.
 
-Skill Counting
+-> Skill Counting
 Uses collections.Counter to count how many times each skill appears.
 
-Save Results
+-> Save Results
 Saves structured outputs (cleaned_job_skills_output_db.csv and skill_counts_from_db.csv).
 
-Visualization
+-> Visualization
 Plots the top N most frequent skills in a bar graph.
+
+
+
+Why This Project Is Useful
+
+- Helps identify which skills companies want most
+
+- Can process thousands of job descriptions quickly
+
+- Database makes skill updates easy
+
+- Resulting data can help students, HR teams, and educators
+
