@@ -85,11 +85,11 @@ HOW TO RUN THE PROJECT
 
 - View outputs:
 
-Cleaned data → cleaned_job_skills_output_db.csv
+    Cleaned data → cleaned_job_skills_output_db.csv
 
-Skill frequency → skill_counts_from_db.csv
+    Skill frequency → skill_counts_from_db.csv
 
-Visual graph → skill_frequency_bar_chart.png
+    Visual graph → skill_frequency_bar_chart.png
 
 
 
