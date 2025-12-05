@@ -59,6 +59,38 @@ Saves structured outputs (cleaned_job_skills_output_db.csv and skill_counts_from
 -> Visualization
 Plots the top N most frequent skills in a bar graph.
 
+TECHNOLOGIES USED
+
+- Python
+
+- SQLite (skills database)
+
+- Pandas (data handling)
+
+- Regex / RE module
+
+- ThreadPoolExecutor (parallel processing)
+
+- Matplotlib (visualization)
+
+HOW TO RUN THE PROJECT
+
+- Place your job description dataset in CSV format.
+
+- Ensure extract_with_db.py and skills.db are in the same directory.
+
+- Run the script:
+
+    python extract_with_db.py
+
+- View outputs:
+
+Cleaned data → cleaned_job_skills_output_db.csv
+
+Skill frequency → skill_counts_from_db.csv
+
+Visual graph → skill_frequency_bar_chart.png
+
 
 
 Why This Project Is Useful
