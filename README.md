@@ -93,7 +93,7 @@ HOW TO RUN THE PROJECT
 
 
 
-Why This Project Is Useful
+WHY THIS PROJECT IS USEFUL
 
 - Helps identify which skills companies want most
 
