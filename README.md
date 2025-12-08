@@ -1,7 +1,7 @@
 # Parallel-Text-Handling-Processor-for-Job-Description-Skill-Extraction
 This project focuses on developing system that processes large volumes of job descriptions to identify and extract required technical skills. Job postings are unstructured and written in varied formats making it difficult to analyze skill demands. The system uses a combination of text cleaning and parallel processing techniques to analyze job data.
 
-OBJECTIVES
+# OBJECTIVES
 
 - Automate extraction of skills from unstructured job descriptions.
 
@@ -15,7 +15,7 @@ OBJECTIVES
 
 - Generate visual insights like bar graphs for presentation and reporting.
 
-KEY FEATURES
+# KEY FEATURES
 
 - Parallel Skill Extraction using ThreadPoolExecutor
 
@@ -30,7 +30,7 @@ KEY FEATURES
 - Skill Frequency Analysis with automatic bar graph plotting
 
 
-WORKFLOW
+# WORKFLOW
 
 -> Load Job Dataset
 Reads a CSV file containing job descriptions.
@@ -59,7 +59,7 @@ Saves structured outputs (cleaned_job_skills_output_db.csv and skill_counts_from
 -> Visualization
 Plots the top N most frequent skills in a bar graph.
 
-TECHNOLOGIES USED
+# TECHNOLOGIES USED
 
 - Python
 
@@ -73,7 +73,7 @@ TECHNOLOGIES USED
 
 - Matplotlib (visualization)
 
-HOW TO RUN THE PROJECT
+# HOW TO RUN THE PROJECT
 
 - Place your job description dataset in CSV format.
 
@@ -93,7 +93,7 @@ HOW TO RUN THE PROJECT
 
 
 
-WHY THIS PROJECT IS USEFUL
+# WHY THIS PROJECT IS USEFUL
 
 - Helps identify which skills companies want most
 
